@@ -1,0 +1,67 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+}
+
+
+.nav-link{
+    font-family: 'Poppin';
+    color:rgb(184, 179, 179);
+    font-size: 14px;
+    margin:20px;
+    
+    
+}
+
+.n-active{
+    color: white !important;
+    margin:20px;
+}
+
+.nav-brand{
+    color:white ;
+    font-family: 'Poppin';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    background-color: black !important;
+    margin-left: 400px;
+
+}
+
+
+
+
+@media only screen  and (max-width: 600px){
+
+    .navshow{
+        background-color: black !important;
+        z-index: 9;
+    }
+    .nav-brand{
+        margin-top: -50px;
+    }
+    .nav-link{
+        float: left;
+    }
+    
+   
+  
+}
+
+
+@media only screen  and (max-width: 400px){
+
+    .navshow{
+        width: 380px;
+    }
+
+    .navbar-toggler{
+        margin-left: 355px !important;
+    }
+  
+}
+
+

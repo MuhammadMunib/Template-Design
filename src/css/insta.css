@@ -1,0 +1,29 @@
+#images {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    
+    
+}
+
+
+#images {
+    display: flex;
+    justify-content: space-around;
+}
+
+#images img{
+    height: 280px;
+    width: 280px;
+    
+}
+
+@media only screen  and (max-width: 600px){
+
+    #images img{
+        display: block;
+
+      
+    }
+
+}

@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+    
+}
+
+@font-face{
+    font-family: 'PoppinT';
+    src: url('../font/playfair/poppin//Poppins-Light.otf');
+}
+
+
+
+.ico-list img{
+    height: 80px;
+    width: 80px;    
+
+}
+
+
+.ico-list h1{
+    font-size: 24px;
+    color:black;
+    margin-top: 10px;
+    font-family: 'Poppin';
+    margin-bottom: 10px;
+}
+.ico-list p{
+    color: gray;
+    font-size: 15px;
+    font-family: 'PoppinT';
+}

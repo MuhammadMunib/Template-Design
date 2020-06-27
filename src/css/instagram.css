@@ -1,0 +1,121 @@
+@font-face{
+  font-family: 'Poppin';
+  src: url('../font/playfair/poppin/Poppins-Regular.otf');
+  
+}
+
+@font-face{
+  font-family: 'PoppinT';
+  src: url('../font/playfair/poppin/Poppins-Thin.otf');
+}
+
+.borde{
+   
+  height: 3px;
+  width: 150px !important;
+  position: relative;
+  left: 45px;
+  background: #8d703b;
+}
+
+.img-pos{
+  margin-left: -40px;
+}
+
+.borde2{
+   
+  height: 2px;
+  width: 134px !important;
+  position: relative;
+  left: 52px;
+  background: #8d703b;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+
+.text-center{
+    font-size: 38px;
+    font-weight: 400px;
+    color: black;
+    margin-top: 100px;
+    font-family: 'Poppin';
+    
+}
+
+.fslightbox-invalid-file-wrapper {
+ display: none !important;
+}
+
+
+.insta-img{
+    height: 280px;
+    width: 300px;
+}
+
+
+.overlay2 {
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    left: 25px;
+    right: 0;
+    height: 90%;
+    width: 90%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+  }
+  
+  .im:hover .overlay2 {
+    opacity: 0.5;
+  }
+ 
+  .icon2 {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  .fa-instagram:hover {
+    color: white;
+    cursor: zoom-in;
+  }
+
+
+
+  @media only screen  and (max-width: 600px){
+    
+    
+    .borde{
+      position: relative;
+      left: 160px;
+    }
+
+    .borde2{
+    position: relative;
+    left: 170px;
+    
+  }
+
+  .img-pos{
+    margin-left: -20px;
+  }
+
+  .insta-img{
+    width: 480px;
+  }
+}
+
+
+@media only screen  and (max-width: 400px){
+    
+.insta-img{
+  width: 365px;
+}
+}

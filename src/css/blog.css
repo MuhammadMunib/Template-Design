@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+    
+}
+
+@font-face{
+    font-family: 'PoppinT';
+    src: url('../font/playfair/poppin/Poppins-Thin.otf');
+}
+
+.borde{ 
+  height: 3px;
+  width: 150px !important;
+  position: relative;
+  left: 45px;
+  background: #8d703b;
+}
+
+.blog-pos{
+    margin-top: 30px;
+}
+
+.borde2{
+   
+    height: 2px;
+  width: 134px !important;
+  position: relative;
+  left: 52px;
+  background: #8d703b;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+
+.text-center{
+    font-size: 38px;
+    font-weight: 400px;
+    color: black;
+    margin-top: 100px;
+    font-family: 'Poppin';
+    
+}
+
+.c-head{
+    color: black;
+    text-align: left;
+    font-family: 'Poppin';
+    font-size: 18px !important;
+}
+
+.card-title:hover{
+    color:#8d703b;
+    text-decoration: none;
+
+}
+
+.link-dec:hover{
+    text-decoration: none;
+}
+
+.link2-text{
+    font-size: 14px;
+    color: #b3b3b3;
+    text-align: left !important;
+    font-family: 'Poppin';
+}
+
+
+.link2-text:hover{
+    text-decoration: none;
+    color:lightgray;
+}
+
+
+@media screen and (max-width: 600px) { 
+    .card-wid{
+        width: 29rem !important;
+        margin-left: -15px;
+    }
+
+    .link2-text{
+        float: left !important;
+    }
+
+}
+
+@media screen and (max-width: 400px) { 
+    .card-wid{
+        width: 20rem !important;
+        margin-left: 5px;
+    }
+
+    .link2-text{
+        float: left !important;
+    }
+
+}

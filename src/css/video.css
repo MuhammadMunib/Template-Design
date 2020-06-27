@@ -1,0 +1,101 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+    
+}
+
+@font-face{
+    font-family: 'PoppinT';
+    src: url('../font/playfair/poppin//Poppins-Light.otf');
+}
+
+
+.poster{
+    height:900px;
+    background-image: url('../img/video.jpg');
+    background-position: center center;
+    
+}
+
+.pos-video{
+    padding-bottom: 100px;
+    margin-top: 83px;
+
+}
+
+.h-1{
+    font-size: 14px;
+    text-align: left;
+    color: #808080;
+    font-family: 'Poppin';
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.h-2{
+    font-size: 38px;
+    text-align: left;
+    color: black;
+    font-family: 'Poppin';
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.p-text{
+    font-size: 15px;
+    color: #808080;
+    text-align: left;
+    font-family: 'PoppinT';
+}
+
+.s-icon{
+    color:#8d703b;
+    
+}
+.s-icon-g,.s-icon-i,.s-icon-t,.s-icon-f{
+    color: #8d703b !important;
+    float: left;
+    margin:10px;
+}
+
+
+
+.text-pos{
+    margin-top: 250px;
+}
+
+
+.play-icon{
+    font-size: 20px !important;
+    color: white;
+    
+   position: relative;
+   top:350px;
+    background-color: #8d703b;
+    padding: 30px;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+@media only screen  and (max-width: 600px){
+    
+    .poster{
+        height:300px !important;
+        background-image: url('../img/video.jpg');
+        background-position: center center;
+        margin-top: 7px;
+    }
+
+    .play-icon{
+        font-size: 20px !important;
+        color: white;
+       position: relative;
+       top:120px;
+       
+    }
+    
+    
+    
+}
+
+

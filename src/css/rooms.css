@@ -1,0 +1,149 @@
+@font-face{
+  font-family: 'Poppin';
+  src: url('../font/playfair/poppin/Poppins-Regular.otf');
+  
+}
+
+@font-face{
+  font-family: 'PoppinT';
+  src: url('../font/playfair/poppin//Poppins-Light.otf');
+}
+
+
+.card-body h3{
+    color: black;
+    font-size: 22px;
+    
+}
+.card-body h4{
+    font-size: 26px;
+    color: black;
+   
+}
+.s-text{
+    color: gray;
+    font-size: 15px;
+    font-family: 'PoppinT';
+
+}
+
+.bg-ful{
+    background-color: #f8f9fa;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.borde{
+   
+    height: 3px;
+  width: 150px !important;
+  position: relative;
+  left: 45px;
+  background: #8d703b;
+}
+
+.borde2{
+   
+    height: 2px;
+  width: 134px !important;
+  position: relative;
+  left: 52px;
+  background: #8d703b;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+
+
+
+.text-center{
+    font-size: 38px;
+    font-weight: 400px;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-family: 'Poppin';
+}
+
+
+
+
+.link-text{
+    color: black;
+    font-size: 15px;
+    font-family: 'PoppinT';
+}
+.link-text:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.border-text{
+    border-bottom: 2px solid #d1ba90;
+    font-family: 'Poppin';
+}
+.card-title{
+  font-family: 'PoppinT';
+  margin-bottom: 30px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 95px;
+    bottom: 0;
+    left: 125px;
+    right: 0;
+    height: 15%;
+    width: 20%;
+    opacity: 0;
+    border-radius: 50%;
+    transition: .3s ease;
+    background-color: white;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+ 
+  .icon {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  
+  .fa-search:hover {
+    color: gray;
+  }
+
+  
+  @media only screen  and (max-width: 600px){
+    
+    .card{
+      margin-bottom: 20px;
+      margin-left: 50px;
+    }
+    
+}
+
+@media only screen  and (max-width: 400px){
+    
+  .card{
+    width: 250px !important;
+  }
+
+  .borde{
+    left: 110px  !important;
+  }
+  .borde2{
+    left: 120px  !important;
+  }
+
+
+  
+}

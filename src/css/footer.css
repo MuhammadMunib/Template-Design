@@ -1,0 +1,75 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+    
+}
+
+@font-face{
+    font-family: 'PoppinT';
+    src: url('../font/playfair/poppin/Poppins-Light.otf');
+}
+
+
+.f-head{
+    color: white;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'PoppinT';
+    margin-bottom: 40px;
+}
+
+.pos-tp{
+    padding-top: 120px;
+}
+
+.f-text{
+    color:rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-align: left;
+    font-family: 'PoppinT';
+    
+}
+
+.bg-black{
+    background-color:#232323 !important;
+    padding-bottom: 100px;
+}
+
+.list-items li{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: 'PoppinT';
+}
+
+.icon-font{
+    margin-right: 20px;
+}
+
+.fa-envelope, .fa-phone{
+    color: white;
+}
+
+.item-clr{
+    color: white !important;
+}
+
+.back-icon i{
+    color: white !important; 
+    font-size: 25px !important;
+    
+    
+}
+
+
+.back-icon{
+    background-color: #808080;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin:5px;
+    border-radius: 50%;
+    float: left;
+
+}

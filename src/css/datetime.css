@@ -1,0 +1,131 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+    
+}
+
+@font-face{
+    font-family: 'PoppinT';
+    src: url('../font/playfair/poppin/Poppins-Thin.otf');
+}
+
+@font-face{
+    font-family: 'PlayFair';
+    src: url('../font/playfair/PlayfairDisplay-Regular.ttf');
+}
+
+
+
+
+.bg-da{
+    background-color: white;
+    padding:25px 20px;
+    
+}
+
+.bg-btn{
+background-color: #7b6233;
+font-family: 'Poppin';
+font-size: 13px;
+}
+
+
+.optn-size{
+    font-size: 20px !important;
+    font-family: 'Poppin';
+    border: none;
+}
+.btn-back{
+    background:transparent !important;
+    border: 0px solid;
+    color:  white;
+    margin-top: 50px;
+    width: 130px;
+}
+
+.pos-top{
+    margin-top: 450px;
+    
+}
+
+.label-text{
+    text-align:left;
+    font-family: 'Poppin';
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom:15px;
+    color: #7b6233;
+}
+
+input[type='text']{
+    border: none;
+    margin-left: -40px;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px !important;
+    font-family: 'Poppin';
+    text-align: left;
+    color: black;
+    
+}
+
+@media screen and (max-width: 600px) { 
+
+    input[type='text']{
+        position: relative;
+        left: -100px;
+        
+    
+    }
+    .optn-size{
+        float: left;
+        margin-left: 10px;
+        width: 320px !important;
+        
+    }
+    .btn-back{
+       
+        margin-bottom: 50px;
+    
+    }
+
+    .bg-btn{
+        width: 450px;
+    }
+
+    .sm-desi{
+        margin-left: 0px !important;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+
+input[type='text'] {
+    position: relative;
+    left: 48px;
+    
+}
+
+.bg-da{
+    background-color: white;
+    padding-right: 190px;
+}
+
+.pos-top{
+    margin-top:700px;
+}
+
+.bg-btn{
+    margin-left: 0px !important;
+}
+
+
+}

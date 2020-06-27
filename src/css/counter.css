@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'Poppin';
+    src: url('../font/playfair/poppin/Poppins-Regular.otf');
+    
+}
+
+@font-face{
+    font-family: 'PoppinT';
+    src: url('../font/playfair/poppin//Poppins-Light.otf');
+}
+
+
+
+.count-pos{
+	background-color: #8d703b !important;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	
+}
+
+.count-pos h3{
+	color: white;
+	font-size: 30px;
+	font-family: 'Arial';
+}
+
+.count-pos h4{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 16px;
+	font-family: 'PoppinT';
+}
